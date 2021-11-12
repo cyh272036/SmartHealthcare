@@ -1,0 +1,87 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    /*font-size: 135px;*/
+    font-size: 7.5vmax;
+    position: absolute;
+    top: 160px;
+    left: 280px;
+    text-align: left;
+    line-height: 0%;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#smart{
+    color: #33ff00;
+    font-family: 'Audiowide', cursive;
+    /*font-size: 115px;*/
+    font-size: 6.4vmax;
+}
+
+.arrow{
+    width: 800px;
+    height: 90px;
+    position: absolute;
+    top: 405px;
+    left: 605px;
+
+}
+
+
+.button{
+    position: absolute;
+}
+
+.button .start{
+    color: #000000;
+    font-family: 'Audiowide', cursive;
+    font-size: 70px;
+    position: absolute;
+    top: 598px;
+    left: 1145px;
+}
+
+.button:hover .start{
+    color: #000000;
+    font-family: 'Audiowide', cursive;
+    font-size: 70px;
+    position: absolute;
+    top: 598px;
+    left: 1145px;
+}
+
+
+.button .line{
+    position: absolute;
+    top: 650px;
+    left: 1055px;
+    opacity: 1;
+}
+
+.button .fill{
+    position: absolute;
+    top: 650px;
+    left: 1055px;
+    opacity: 0;
+}
+
+.button:hover .fill{
+    position: absolute;
+    top: 650px;
+    left: 1060px;
+    opacity: 1;
+}
+
+
